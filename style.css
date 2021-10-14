@@ -1,0 +1,408 @@
+/*I organized my css alphabetically because I thought it was easy to find each
+selector, and I put all the class selectors in the second half.*/
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+    @media only screen and (max-width: 640px) { 
+
+    .logo {
+        width: 40%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 1%;
+    }
+  
+        #page {
+            margin: auto;
+            width: 90%;
+            max-width: 100%;
+            border: 0.625% #000;
+            background-color: beige;
+            overflow-x: hidden;
+        }
+        body {
+            width:100%;
+            max-width: 100%;
+            font-family:  'Lora', sans-serif;
+            font-size: 0.7em;
+            color: navy;
+            background-color: beige;}
+        .navbar {
+            display: inline-block;
+            margin-left:auto;
+            margin-right:auto;
+            width: 100%;
+            font-size: 1.1em;
+            line-height: 200%;
+            text-align: center;
+            color: navy;
+            background-color: #D5920C;
+            }     
+            figure {
+                display: inline-block;
+            }
+            figure img {
+                vertical-align: top;
+            }
+            figure figcaption {
+                text-align: center;
+                font-family:  'Lora', sans-serif;
+
+                font-size: 1.5 em; 
+            }
+
+        #food-items{
+            width: 100%;
+            color: navy;
+            background-color:#FFD581; 
+            }
+        .food-items-2{
+            color: navy;
+            width: 100%;
+            background-color:#FFD581;
+            }
+        .fwt{
+            display: inline-block;
+            margin: auto;
+            margin-top: 5%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            text-align: center;
+        }
+        .fwt img{
+            width: 90%;
+
+        }
+        .center-text {
+            font-family: 'Lora', serif;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            max-width: 100%;
+            width: 90%;
+            padding-top: 1%;
+
+        }
+        .socialmedia{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            max-width:100%;
+        }
+        img.smlogo{
+            margin: auto;
+            width: 25%;
+            height:25%;
+            }
+        iframe{
+            margin: auto;
+            max-width: 100%;
+        }
+        #testimonials {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        #about-me{
+            float: left;
+            font-family: 'Noto Serif', serif;
+            text-align: center;
+            width: 100%;
+            background-color:#FFC758;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        .map{
+               margin: auto;
+               width: 100%;
+               
+           }
+    } 
+    @media only screen and (min-width: 641px) and (max-width: 1024px) { 
+        .logo {
+            width: 30%;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #page {
+            margin:auto;
+
+            width: 100%;
+            max-width: 100%;
+            border: 0.625% #000;
+            background-color: beige;
+            overflow-x: hidden;
+        }
+        body {
+            margin-left: auto;
+            margin-right: auto;
+            width:90%;
+            max-width: 100%;
+            font-family:  'Lora', sans-serif;
+            font-size: 1em;
+            color: navy;
+            background-color: beige;}
+
+        .navbar {
+            display: inline-block;
+            margin-left:auto;
+            margin-right:auto;
+            width: 100%;
+            font-size: 1.1em;
+            line-height: 200%;
+            text-align: center;
+            color: navy;
+            background-color: #D5920C;
+        }      
+
+        #food-items{
+            color: navy;
+            width: 100%;
+            background-color:#FFD581;
+            }
+        .food-items-2{
+            color: navy;
+            width: 100%;
+            background-color:#FFD581;
+            }
+        .fwt{
+            display: inline-block;
+            margin: auto;
+            margin-left: 1.25%;
+            margin-right: auto;
+            width: 30%;
+            text-align: center;
+            margin-top:2%;
+            padding-left: 1%;
+        }
+        .fwt img{
+            width: 100%;
+        }
+        #about-me{
+            float: left;
+            font-family: 'Noto Serif', serif;
+            text-align: center;
+            width: 48%;
+            color: navy;
+            background-color:#FFC758;
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            /* padding-left: 2%;
+            padding-right: 2%; */
+            
+        }
+        #testimonials{
+            /* float: left;
+            width: 35%;
+            color: navy;
+            margin: auto; */
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            /* padding-right: 3%; */
+        }
+        .map{
+            float: right;
+            margin: auto;
+            height: auto;
+            width: 48%;
+               
+           }
+        iframe{
+            width:100%;
+            height: auto;
+        }
+        
+    
+       
+  
+        .center-text {
+            font-family: 'Lora', serif;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            max-width: 100%;
+            padding-top: 1%;
+            width: 90%;
+        }
+        .socialmedia{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            max-width:1024px;
+        }
+        img.smlogo{
+            margin: auto;
+            width: 20%;
+            }
+        
+    h2 {
+        padding-top: 1%;
+    }
+    } 
+    @media only screen and (min-width: 1025px) { 
+    .logo {
+    width: 20%;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: fill;
+    }
+  
+    #page {
+        max-width: 90%;
+        margin: 3.125% auto 3.125% auto;
+        background-color: beige;
+    } 
+    body {
+        font-family:  'Lora', sans-serif;
+        font-size: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        color: #666;
+        background-color: beige;}
+    
+    .navbar {
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        width: 100%;
+        font-size: 1.1em;
+        line-height: 250%;
+        text-align: center;
+        color: navy;
+        background-color:#D5920C;
+        } 
+
+
+    #food-items{
+        color: navy;
+        width: 100%;
+        background-color:#FFD581;
+        }
+        .food-items-2{
+            color: navy;
+            width: 100%;
+            background-color:#FFD581;
+            }
+    .fwt{
+        display: inline-block;
+        margin: auto;
+        margin-left: 1.25%;
+        margin-right: auto;
+        width: 30%;
+        text-align: center;
+        margin-top:2%;
+        padding-left: 1%;
+    }
+    .fwt img{
+        width: 100%;
+
+    }
+        .socialmedia{
+            text-align: center;
+            margin: auto;
+            width: 50%;
+        }
+
+    
+    .center-text {
+        font-family: 'Lora', serif;
+        text-align: center;
+    } 
+
+    #about-me{
+        float: left;
+        font-family: 'Noto Serif', serif;
+        text-align: center;
+        width: 25%;
+        color: navy;
+        background-color:#FFC758;
+        margin-left: auto;
+        margin-right: auto;
+        /* padding-left: 2%;
+        padding-right: 2%; */
+        
+    }
+    #testimonials{
+        float: left;
+        width: 35%;
+        color: navy;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-right: 3%;
+    }
+    
+    .map{
+        float: right;
+        margin: auto;
+        width: 33%;
+           
+       }
+    iframe{
+        width:100%;
+    }
+
+    span{
+        width: 80%;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+
+    h2 {
+        padding-top: 2%;
+    }
+    li {
+        line-height: 1.6em;}
+            
+    .socialmedia{
+        display:inline-block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    img.smlogo{
+        margin: auto;
+        width: 10%;
+        }
+
+    } 
+
+    ul {
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+            }
+        
+    ul li {
+        display: inline;
+        padding: 10px;
+        text-align: center;
+        /* float: right; */
+    }
+    ul li a, 
+    ul a :hover, 
+ul li a:focus, 
+ul li a:active {
+border: none;
+text-decoration: none;
+color: inherit;}
+
+
+    
